@@ -1,0 +1,68 @@
+O que é um repositório no Git e qual a sua importância?
+- um repositório no Git é um diretório que armazena o código fonte de um projeto junto com todo seu hisórico de alterações. Ele é importante pois é responsável por controlar 
+e organizar o código em uma máquina local
+
+Qual a função do Git Bash?
+- ele é uma ferramenta essencial para usar o Git no windows, proporcionando uma interface de linha de comando que suporta comandos do Git e do Bash, possibilitando o  trabalho de maneira mais eficiente, como faria em sistemas Unix ou Linux
+
+O que faz o comando git add e qual a diferença entre git add <arquivo> e git add .?
+
+- O comando git add prepara alterações para o próximo commit.
+git add <arquivo>: Adiciona um arquivo específico à área de preparação.
+git add .: Adiciona todas as alterações e novos arquivos no diretório atual e subdiretórios.
+
+Por que utilizamos o ponto (.) no comando git add .?
+- O ponto (.) no comando git add . representa o diretório atual. Ao usá-lo, você está dizendo ao Git para adicionar todas as alterações (novos arquivos, modificações ou exclusões) dentro do diretório atual e de seus subdiretórios.
+
+Explique o comando git commit e por que é importante criar uma mensagem descritiva.
+- O comando git commit registra as alterações feitas no repositório, criando um ponto no histórico com um identificador único. A mensagem descritiva é importante porque facilita a compreensão do que foi alterado, ajuda na colaboração,
+ facilita a rastreabilidade de erros e é uma boa prática de desenvolvimento. Uma boa mensagem deve ser clara, objetiva e no tempo imperativo.
+
+Qual a função do comando git push?
+ - comando git push é utilizado para enviar as alterações do seu repositório local para um repositório remoto (como o GitHub, GitLab, etc.). 
+ Ele atualiza o repositório remoto com os commits feitos localmente, sincronizando seu trabalho com os demais colaboradores ou o servidor.
+
+Qual a importância de criar commits frequentes durante o desenvolvimento de um projeto?
+- Commits frequentes são importantes porque ajudam a manter o histórico claro, facilitam a reversão de mudanças, reduzem conflitos, melhoram a colaboração em equipe e tornam o desenvolvimento mais organizado e controlado.
+
+Explique a função das tags HTML e como elas estruturam uma página.
+- As tags HTML são elementos fundamentais que definem a estrutura e o conteúdo de uma página web. Elas são usadas para criar e organizar o conteúdo dentro do documento HTML, 
+delimitando diferentes seções e tipos de dados (como texto, imagens, links, etc.).
+
+O que são atributos em uma tag HTML e qual a sua função?
+- Os atributos em uma tag HTML fornecem informações adicionais sobre um elemento HTML, configurando ou modificando seu comportamento, 
+aparência ou funcionalidade. Eles são definidos dentro da tag de abertura e geralmente consistem em um nome e um valor.
+
+O que é o Emmet e como ele facilita o desenvolvimento de páginas HTML?
+- O Emmet é uma ferramenta que acelera o desenvolvimento HTML e CSS, permitindo escrever código com abreviações que são rapidamente expandidas em estruturas completas, aumentando a produtividade e reduzindo o esforço de codificação.
+
+O que é o box-sizing no CSS e por que usamos ele no reset inicial?
+- O box-sizing: border-box altera o cálculo das dimensões de um elemento para incluir o padding e as bordas, evitando surpresas no layout.
+Usá-lo no reset inicial proporciona consistência e facilita o trabalho com o design e o layout da página
+
+Por que é importante utilizar tags semânticas no HTML?
+- Usar tags semânticas no HTML torna o conteúdo mais acessível, facilita a manutenção do código e segue as melhores práticas da web. Além disso, essas tags ajudam na compreensão do significado e da estrutura da página, tanto para humanos quanto para máquinas.
+
+O que são media queries no CSS e qual a sua função?
+- Media queries são uma técnica do CSS usada para aplicar estilos com base nas características do dispositivo, como largura da tela, resolução e orientação.
+ Elas permitem criar layouts responsivos, ajustando a aparência de uma página para proporcionar uma melhor experiência do usuário em diferentes dispositivos. 
+
+Qual a função do GitHub Pages?
+- O GitHub Pages facilita a hospedagem de sites estáticos, permitindo que você publique e compartilhe sites diretamente a partir de um repositório GitHub. 
+É uma ferramenta prática, especialmente para desenvolvedores que precisam de uma solução simples para mostrar projetos, portfolios ou blogs sem a necessidade de servidores ou configurações complexas.
+
+O que é o Flexbox no CSS e para que ele é utilizado?
+- Flexbox (abreviação de Flexible Box Layout) é um modelo de layout no CSS que facilita o design e o alinhamento de elementos dentro de um contêiner de forma flexível e responsiva.
+ Ele permite distribuir o espaço disponível entre os itens de um contêiner e garantir um layout que se adapta bem a diferentes tamanhos de tela e dispositivos.
+
+Qual a diferença entre justify-content e align-items em um container Flexbox?
+- justify-content controla o alinhamento e a distribuição dos itens ao longo do eixo principal (horizontal ou vertical, dependendo do flex-direction).
+align-items controla o alinhamento dos itens ao longo do eixo transversal (vertical ou horizontal, dependendo do flex-direction).
+
+Como o flex-grow funciona e qual o seu propósito no layout Flexbox?
+-  flex-grow é uma propriedade do Flexbox no CSS que define a capacidade de um item dentro de um contêiner flexível de crescer para ocupar o espaço disponível. 
+Ela controla a distribuição de espaço extra dentro do contêiner flexível, ou seja, quando há espaço sobrando no contêiner, o flex-grow determina o quanto cada item deve expandir para preencher esse espaço.
+
+Explique a diferença entre flex-direction: column; e flex-direction: row;.
+- O flex-direction: row é utilizado quando é necessário que os itens sejam dispostos horizontalmente (como uma linha de navegação, botões em uma barra de ferramentas, etc.).
+O flex-direction: é usado quando houver a necessidade de que os itens sejam dispostos verticalmente (como uma lista de itens, menus verticais, colunas de conteúdo, etc.).
